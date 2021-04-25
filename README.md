@@ -23,7 +23,7 @@
 
 ### 2. AndroidManifest.xml 
 - line 35 : Redirect URI 수정
-  ex) https://example.com/oauth -> "oauth" 입력
+  </br>ex) https://example.com/oauth -> "oauth" 입력
 - line 36 : Kakao app 키 입력
 
 ### 3. GlobalActivity 
