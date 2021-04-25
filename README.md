@@ -21,7 +21,12 @@
 ## [Custom]
 ### 1. MainActivity > getKeyHash()의 키해시 값 : [내 애플리케이션 > 앱 설정 > 플랫폼] 에 등록
 
-### 2. GlobalActivity 
+### 2. AndroidManifest.xml 
+- line 35 : Redirect URI 수정
+  ex) https://example.com/oauth -> "oauth" 입력
+- line 36 : Kakao app 키 입력
+
+### 3. GlobalActivity 
 - line 15 : Native app 키 입력
 
 ### 3. values > strings.xml
