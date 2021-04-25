@@ -1,3 +1,27 @@
 # kakaologin-android-sample
 
-![캡처](/Users/pu1et/Desktop/kakao.png)
+<img width="235" alt="kakao" src="https://user-images.githubusercontent.com/46569798/116001197-39998180-a62e-11eb-9d06-24e1c895fb06.png">
+
+****[Layout]****
+1. 첫번째 버튼 - 로그인
+2. 두번째 버튼 - 로그아웃
+
+
+****[Activity]****
+**1. GlobalActivity**
+- KakaoSdk 초기화 : Native app 키 사용
+
+**2. MainActivity**
+- 로그인
+  - 토큰 생성 -> Error 레벨 : 토큰 출력
+  - 사용자 정보(회원번호, 이메일) - Error 레벨 : 정보 출력
+  
+- 로그아웃
+  - 정상 로그아웃 시 -> 토큰 삭제됨
+
+****[Custom]****
+1. GlobalActivity 
+- line 15 : Native app 키 입력
+
+2. values > strings.xml
+- line 2 : Native app 키 입력
