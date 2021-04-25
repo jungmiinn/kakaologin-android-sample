@@ -19,8 +19,10 @@
   - 정상 로그아웃 시 -> 토큰 삭제됨
 
 **[Custom]**
-1. GlobalActivity 
+1. MainActivity > getKeyHash()의 키해시 값 -> [내 애플리케이션 > 앱 설정 > 플랫폼]에 등록
+
+2. GlobalActivity 
 - line 15 : Native app 키 입력
 
-2. values > strings.xml
+3. values > strings.xml
 - line 2 : Native app 키 입력
