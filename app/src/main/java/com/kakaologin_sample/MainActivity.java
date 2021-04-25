@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // Log.d("GET_KEYHASH",getKeyHash());
+
         btn_login = findViewById(R.id.btn_login);
         btn_login_out = findViewById(R.id.btn_login_out);
 
